@@ -1,0 +1,73 @@
+export type Question = { question: string; options: string[]; correct: number };
+
+export const NUMBER_SYSTEM_QUESTIONS: Question[] = [
+  { question: "Which of the following is a prime number?", options: ["1", "9", "17", "21"], correct: 2 },
+  { question: "The smallest whole number is:", options: ["0", "1", "-1", "Does not exist"], correct: 0 },
+  { question: "Which is divisible by 11? (Rule of 11)", options: ["12321", "121", "1331", "1111"], correct: 3 },
+  { question: "LCM of 12 and 18 is:", options: ["36", "24", "72", "12"], correct: 0 },
+  { question: "HCF of 24 and 36 is:", options: ["6", "12", "18", "24"], correct: 1 },
+  { question: "A number divisible by 9 must have sum of digits divisible by:", options: ["3", "6", "9", "11"], correct: 2 },
+  { question: "Which is NOT a rational number?", options: ["1/2", "0.75", "√2", "-3"], correct: 2 },
+  { question: "Remainder when 17 is divided by 5 is:", options: ["1", "2", "3", "4"], correct: 1 },
+  { question: "LCM × HCF of two numbers equals:", options: ["Their sum", "Their difference", "Their product", "Their quotient"], correct: 2 },
+  { question: "Which is an even prime number?", options: ["1", "2", "3", "4"], correct: 1 },
+  { question: "Smallest 3-digit number divisible by 7 is:", options: ["100", "105", "112", "119"], correct: 1 },
+  { question: "HCF of two co-prime numbers is always:", options: ["0", "1", "Their product", "Their sum"], correct: 1 },
+  { question: "Which number is divisible by both 3 and 4?", options: ["18", "20", "24", "30"], correct: 2 },
+  { question: "How many prime numbers are there between 1 and 20?", options: ["6", "7", "8", "9"], correct: 2 },
+  { question: "If dividend = 56, divisor = 9, quotient = 6, remainder = ?", options: ["1", "2", "3", "4"], correct: 1 },
+];
+
+export const PROBLEMS_ON_NUMBERS_QUESTIONS: Question[] = [
+  { question: "Sum of digits of 4587 is:", options: ["22", "24", "20", "26"], correct: 1 },
+  { question: "Reverse of 1234 is:", options: ["3214", "4321", "2341", "4231"], correct: 1 },
+  { question: "Product of digits of 235 is:", options: ["10", "15", "30", "60"], correct: 2 },
+  { question: "Place value of 5 in 3527 is:", options: ["5", "50", "500", "5000"], correct: 2 },
+  { question: "BODMAS: 12 + 4 × 3 - 2 = ?", options: ["22", "44", "16", "32"], correct: 0 },
+  { question: "If a 2-digit number is reversed and added to itself, sum is divisible by:", options: ["7", "9", "11", "13"], correct: 2 },
+  { question: "Simplify: 25 - [12 - {6 - (4-2)}]", options: ["17", "19", "21", "15"], correct: 1 },
+  { question: "Sum of two numbers is 25 and difference is 5. Larger number is:", options: ["10", "15", "20", "12"], correct: 1 },
+  { question: "A number when multiplied by 7 gives 84. The number is:", options: ["10", "12", "14", "16"], correct: 1 },
+  { question: "Interchanging digits of 73 gives:", options: ["37", "73", "47", "53"], correct: 0 },
+  { question: "BODMAS: (8 + 2) × (5 - 3) = ?", options: ["10", "20", "16", "30"], correct: 1 },
+  { question: "Three consecutive integers sum to 51. Middle one is:", options: ["16", "17", "18", "19"], correct: 1 },
+  { question: "The number whose half is 24 is:", options: ["12", "36", "48", "60"], correct: 2 },
+  { question: "Simplify: 100 ÷ 4 × 5", options: ["5", "125", "25", "100"], correct: 1 },
+  { question: "If x + 7 = 19, then x = ?", options: ["10", "11", "12", "13"], correct: 2 },
+];
+
+export const PERCENTAGE_QUESTIONS: Question[] = [
+  { question: "25% of 200 is:", options: ["25", "50", "75", "100"], correct: 1 },
+  { question: "Convert 0.45 to percentage:", options: ["4.5%", "45%", "0.45%", "450%"], correct: 1 },
+  { question: "1/4 as a percentage is:", options: ["20%", "25%", "40%", "50%"], correct: 1 },
+  { question: "If price increases from 100 to 120, % increase is:", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+  { question: "What % is 15 of 60?", options: ["20%", "25%", "30%", "15%"], correct: 1 },
+  { question: "If 30% of x = 60, then x = ?", options: ["150", "180", "200", "220"], correct: 2 },
+  { question: "Decrease from 80 to 60 is what %?", options: ["20%", "25%", "30%", "33%"], correct: 1 },
+  { question: "50% of 50% of 200 is:", options: ["25", "50", "75", "100"], correct: 1 },
+  { question: "If A is 20% more than B and B = 100, A = ?", options: ["110", "115", "120", "125"], correct: 2 },
+  { question: "10% of 10% is equal to:", options: ["1%", "0.1%", "0.01%", "100%"], correct: 0 },
+  { question: "If salary is increased by 10% then decreased by 10%, net change:", options: ["0%", "-1%", "+1%", "-2%"], correct: 1 },
+  { question: "What is 12.5% as a fraction?", options: ["1/4", "1/8", "1/6", "1/10"], correct: 1 },
+  { question: "60% of 250 = ?", options: ["120", "140", "150", "160"], correct: 2 },
+  { question: "If 40% of students are boys and there are 60 girls, total students:", options: ["80", "100", "120", "150"], correct: 1 },
+  { question: "Population grows from 1000 to 1200. Growth rate:", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+];
+
+export const PROFIT_LOSS_QUESTIONS: Question[] = [
+  { question: "CP = 100, SP = 120. Profit % = ?", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+  { question: "CP = 200, SP = 180. Loss % = ?", options: ["5%", "10%", "15%", "20%"], correct: 1 },
+  { question: "Marked Price = 500, Discount = 10%. SP = ?", options: ["400", "450", "475", "490"], correct: 1 },
+  { question: "If Profit = 50 and CP = 250, Profit % = ?", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+  { question: "SP = 240, Profit = 20%. CP = ?", options: ["180", "200", "220", "210"], correct: 1 },
+  { question: "Successive discounts of 10% and 20% on 1000 give SP:", options: ["700", "720", "750", "800"], correct: 1 },
+  { question: "If CP = SP, then:", options: ["Profit", "Loss", "No profit no loss", "Cannot say"], correct: 2 },
+  { question: "A shopkeeper sells at 25% profit. If CP = 80, SP = ?", options: ["90", "95", "100", "105"], correct: 2 },
+  { question: "Loss % = (Loss / CP) × ?", options: ["10", "100", "1000", "1"], correct: 1 },
+  { question: "MP = 800, SP = 720. Discount % = ?", options: ["8%", "10%", "12%", "15%"], correct: 1 },
+  { question: "If SP of 10 articles = CP of 12, profit % = ?", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+  { question: "A man buys for ₹400 and sells for ₹500. Gain % = ?", options: ["20%", "25%", "30%", "15%"], correct: 1 },
+  { question: "If loss is 1/5 of CP, loss % = ?", options: ["10%", "15%", "20%", "25%"], correct: 2 },
+  { question: "An item marked ₹1200 sold at 25% discount. SP = ?", options: ["800", "850", "900", "950"], correct: 2 },
+  { question: "Two successive discounts of 20% and 25% are equivalent to:", options: ["40%", "45%", "50%", "35%"], correct: 0 },
+];

@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#f8fafc" />
+  <rect x="120" y="130" width="480" height="340" rx="30" fill="#ffffff" stroke="#2563eb" stroke-width="18" />
+  <path d="M170 190H520" stroke="#2563eb" stroke-width="18" stroke-linecap="round" />
+  <path d="M170 250H520" stroke="#2563eb" stroke-width="18" stroke-linecap="round" />
+  <path d="M170 310H520" stroke="#2563eb" stroke-width="18" stroke-linecap="round" />
+  <path d="M170 370H520" stroke="#2563eb" stroke-width="18" stroke-linecap="round" />
+  <path d="M170 430H520" stroke="#2563eb" stroke-width="18" stroke-linecap="round" />
+  <path d="M665 180C702.24 180 734 211.76 734 249C734 286.24 702.24 318 665 318C627.76 318 596 286.24 596 249C596 211.76 627.76 180 665 180Z" fill="#f8fafc" stroke="#0f172a" stroke-width="18"/>
+  <path d="M665 220C683.807 220 699 235.193 699 254C699 272.807 683.807 288 665 288C646.193 288 631 272.807 631 254C631 235.193 646.193 220 665 220Z" fill="#2563eb" />
+  <path d="M665 310V360" stroke="#0f172a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M665 360L645 380" stroke="#0f172a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M665 360L685 380" stroke="#0f172a" stroke-width="18" stroke-linecap="round"/>
+  <text x="120" y="520" fill="#0f172a" font-family="Inter, sans-serif" font-size="72" font-weight="700">Study Hub</text>
+  <text x="120" y="600" fill="#475569" font-family="Inter, sans-serif" font-size="36">A learning hub for school and college study resources.</text>
+</svg>
